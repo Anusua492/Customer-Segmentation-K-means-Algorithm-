@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clusters</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        h1 {
+            text-align: center;
+            margin-top: 50px;
+            color: #008080; /* Teal */
+        }
+        div {
+            text-align: center;
+            margin-top: 20px;
+        }
+        h2 {
+            color: #008080; /* Teal */
+        }
+        img {
+            display: block;
+            margin: 0 auto;
+            max-width: 80%;
+            height: auto;
+            border: 2px solid #008080; /* Teal */
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Clusters</h1>
+    <div>
+        <h2>Elbow Point Graph</h2>
+        <img src="{{ elbow_plot_url }}" alt="Elbow Plot">
+    </div>
+    <div>
+        <h2>Customer Groups</h2>
+        <img src="{{ clusters_plot_url }}" alt="Clusters Plot">
+    </div>
+</body>
+</html>
